@@ -1,0 +1,14 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Right here the description",
+  "main": "main.js",
+  "scripts": {
+    "setup": "git init && npm i express && npm i mongoose && npm i dotenv && npm i cors && npm i -D nodemon",
+    "start": "node server/main.js",
+    "dev": "nodemon server/main.js"
+  },
+  "author": "FuryCodz",
+  "license": "MIT",
+  "dependencies": {}
+}
